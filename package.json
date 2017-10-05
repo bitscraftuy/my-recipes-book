@@ -1,0 +1,29 @@
+{
+  "name": "my-recipe-book",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "meteor-node-stubs": "~0.2.0"
+  },
+  "version": "1.0.0",
+  "description": "recipes book app",
+  "main": "index.js",
+  "devDependencies": {
+    "grunt":"1.0.1",
+    "grunt-exec": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitsKingdomLLC/my-recipes-book.git"
+  },
+  "author": "js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitsKingdomLLC/my-recipes-book/issues"
+  },
+  "homepage": "https://github.com/BitsKingdomLLC/my-recipes-book#readme"
+}

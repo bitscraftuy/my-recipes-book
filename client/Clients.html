@@ -1,0 +1,10 @@
+<template name="Clients">
+	<h1>Clients list test</h1>
+	{{#unless noRender}}
+		{{#each clients}}
+			{{> Client}}
+		{{else}}
+			<p>no results</p>
+		{{/each}}
+	{{/unless}}
+</template>

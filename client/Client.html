@@ -1,0 +1,10 @@
+<template name="Client">
+	{{#if firstname}}
+			<p>{{firstname}} - {{lastname}} / {{#if isContact contact}} yes {{else}} no {{/if}}</p>
+			{{#if isContact contact }}
+				<button class="btn-deny toggle-menu">Remove from list</button>
+			{{else}}
+				<button class="btn-primary toggle-menu">Contact Me</button>
+			{{/if}}
+		{{/if}}
+</template>
